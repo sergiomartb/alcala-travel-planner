@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Alcalá del Júcar 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__info">
+                    <h1>Plan Alcalá del Júcar 2025</h1>
+                    <p class="header__dates">23 - 29 Agosto 2025</p>
+                    <div class="travelers-info">
+                        <div class="travelers">
+                            <span>👫 Sergio & Sara</span>
+                        </div>
+                        <div class="pets">
+                            <span>🐕 Tapón & Lola (Yorkshire)</span>
+                            <span>🐱 Greta</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-info">
+                    <div class="weather-item">
+                        <span class="weather-label">Temp. máx:</span>
+                        <span class="weather-value">33°C</span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="weather-label">Temp. mín:</span>
+                        <span class="weather-value">18°C</span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="weather-label">Lluvia:</span>
+                        <span class="weather-value">6%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Image -->
+    <section class="hero">
+        <div class="hero__image">
+            <img src="https://pplx-res.cloudinary.com/image/upload/v1754473631/pplx_project_search_images/fdd74a11d1b3186ef58d7d7684875cf3fa8124c9.jpg" alt="Vista panorámica de Alcalá del Júcar" />
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav__content">
+                <button class="nav__tab active" data-section="inicio">🏠 Inicio</button>
+                <button class="nav__tab" data-section="alojamientos">🏨 Alojamientos</button>
+                <button class="nav__tab" data-section="restaurantes">🍽️ Restaurantes</button>
+                <button class="nav__tab" data-section="actividades">🎯 Actividades</button>
+                <button class="nav__tab" data-section="multiaventura">⚡ Multiaventura</button>
+                <button class="nav__tab" data-section="pueblos">🏘️ Pueblos Cercanos</button>
+                <button class="nav__tab" data-section="mascotas">🐾 Servicios Mascotas</button>
+                <button class="nav__tab" data-section="presupuesto">💰 Presupuesto</button>
+                <button class="nav__tab" data-section="planificador">📅 Planificador</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Inicio Section -->
+            <section id="inicio" class="section active">
+                <h2>Bienvenidos a vuestro plan de viaje</h2>
+                <div class="intro-grid">
+                    <div class="intro-card">
+                        <h3>🎯 Información del Viaje</h3>
+                        <ul>
+                            <li><strong>Fechas:</strong> 23-29 Agosto 2025 (6 noches)</li>
+                            <li><strong>Destino:</strong> Alcalá del Júcar y alrededores</li>
+                            <li><strong>Radio de exploración:</strong> 35 km</li>
+                            <li><strong>Clima:</strong> Máx 33°C, Mín 18°C, Sol garantizado</li>
+                        </ul>
+                    </div>
+                    <div class="intro-card">
+                        <h3>🐾 Viajamos con Mascotas</h3>
+                        <p>Hemos seleccionado cuidadosamente todos los alojamientos, restaurantes y actividades teniendo en cuenta a Tapón, Lola y Greta.</p>
+                        <div class="pet-friendly-indicator">
+                            <span>✅ Todo Pet-Friendly verificado</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="highlights-grid">
+                    <div class="highlight-card" style="background: var(--color-bg-1);">
+                        <h4>🏨 Alojamientos Únicos</h4>
+                        <p>6 opciones de casas cueva con jacuzzi y hoteles con spa, todos pet-friendly</p>
+                    </div>
+                    <div class="highlight-card" style="background: var(--color-bg-2);">
+                        <h4>🍽️ Gastronomía Manchega</h4>
+                        <p>5 restaurantes seleccionados, desde tradicional hasta alta cocina</p>
+                    </div>
+                    <div class="highlight-card" style="background: var(--color-bg-3);">
+                        <h4>🎯 Actividades Variadas</h4>
+                        <p>Desde piraguas con mascotas hasta multiaventura extrema</p>
+                    </div>
+                    <div class="highlight-card" style="background: var(--color-bg-4);">
+                        <h4>🏘️ Pueblos Medievales</h4>
+                        <p>Jorquera, Villa de Ves y Casas Ibáñez a pocos minutos</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Alojamientos Section -->
+            <section id="alojamientos" class="section">
+                <div class="section-header">
+                    <h2>🏨 Alojamientos</h2>
+                    <div class="filters">
+                        <select id="precio-filter">
+                            <option value="">Todos los precios</option>
+                            <option value="economico">€ - Hasta 90€/noche</option>
+                            <option value="medio">€€ - 90-120€/noche</option>
+                            <option value="premium">€€€ - Más de 120€/noche</option>
+                        </select>
+                        <select id="tipo-filter">
+                            <option value="">Todos los tipos</option>
+                            <option value="cueva">Casa Cueva</option>
+                            <option value="hotel">Hotel</option>
+                            <option value="rural">Casa Rural</option>
+                            <option value="apartamento">Apartamento</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="alojamientos-grid" class="accommodations-grid">
+                    <div class="loading">Cargando alojamientos...</div>
+                </div>
+            </section>
+
+            <!-- Restaurantes Section -->
+            <section id="restaurantes" class="section">
+                <div class="section-header">
+                    <h2>🍽️ Restaurantes</h2>
+                    <div class="pet-legend">
+                        <span class="legend-item"><span class="pet-icon inside">🐾</span> Mascotas permitidas DENTRO</span>
+                        <span class="legend-item"><span class="pet-icon terrace">🐾</span> Solo terraza</span>
+                    </div>
+                </div>
+                <div id="restaurantes-grid" class="restaurants-grid">
+                    <div class="loading">Cargando restaurantes...</div>
+                </div>
+            </section>
+
+            <!-- Actividades Section -->
+            <section id="actividades" class="section">
+                <div class="section-header">
+                    <h2>🎯 Actividades</h2>
+                    <div class="activity-tabs">
+                        <button class="activity-tab active" data-tab="con-mascotas">🐾 Con Mascotas</button>
+                        <button class="activity-tab" data-tab="sin-mascotas">🚫 Sin Mascotas</button>
+                    </div>
+                </div>
+                <div id="actividades-con-mascotas" class="activities-grid">
+                    <div class="loading">Cargando actividades con mascotas...</div>
+                </div>
+                <div id="actividades-sin-mascotas" class="activities-grid hidden">
+                    <div class="loading">Cargando actividades sin mascotas...</div>
+                </div>
+            </section>
+
+            <!-- Multiaventura Section -->
+            <section id="multiaventura" class="section">
+                <div class="section-header">
+                    <h2>⚡ Multiaventura</h2>
+                    <p class="section-subtitle">Actividades extremas - Servicio de cuidado de mascotas disponible</p>
+                </div>
+                <div id="multiaventura-grid" class="multiadventure-grid">
+                    <div class="loading">Cargando actividades de multiaventura...</div>
+                </div>
+            </section>
+
+            <!-- Pueblos Section -->
+            <section id="pueblos" class="section">
+                <div class="section-header">
+                    <h2>🏘️ Pueblos Cercanos</h2>
+                    <p class="section-subtitle">Descubre los encantadores pueblos medievales de La Manchuela</p>
+                </div>
+                <div id="pueblos-grid" class="towns-grid">
+                    <div class="loading">Cargando pueblos cercanos...</div>
+                </div>
+            </section>
+
+            <!-- Servicios Mascotas Section -->
+            <section id="mascotas" class="section">
+                <div class="section-header">
+                    <h2>🐾 Servicios para Mascotas</h2>
+                    <p class="section-subtitle">Todo lo que necesitas para viajar con Tapón, Lola y Greta</p>
+                </div>
+                <div id="mascotas-grid" class="pet-services-grid">
+                    <div class="loading">Cargando servicios para mascotas...</div>
+                </div>
+            </section>
+
+            <!-- Presupuesto Section -->
+            <section id="presupuesto" class="section">
+                <div class="section-header">
+                    <h2>💰 Calculadora de Presupuesto</h2>
+                    <p class="section-subtitle">Calcula el coste estimado de vuestro viaje</p>
+                </div>
+                <div class="budget-calculator">
+                    <div class="budget-categories">
+                        <div class="budget-category">
+                            <label>Alojamiento (6 noches)</label>
+                            <input type="range" id="alojamiento-range" min="420" max="1200" value="720" step="60">
+                            <div class="range-values">
+                                <span>420€</span>
+                                <span id="alojamiento-value">720€</span>
+                                <span>1200€</span>
+                            </div>
+                        </div>
+                        <div class="budget-category">
+                            <label>Comidas (6 días)</label>
+                            <input type="range" id="comidas-range" min="300" max="600" value="450" step="50">
+                            <div class="range-values">
+                                <span>300€</span>
+                                <span id="comidas-value">450€</span>
+                                <span>600€</span>
+                            </div>
+                        </div>
+                        <div class="budget-category">
+                            <label>Actividades</label>
+                            <input type="range" id="actividades-range" min="100" max="400" value="250" step="50">
+                            <div class="range-values">
+                                <span>100€</span>
+                                <span id="actividades-value">250€</span>
+                                <span>400€</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="budget-summary">
+                        <div class="budget-total">
+                            <h3>Total Estimado: <span id="total-budget">1420€</span></h3>
+                            <p>Para 2 personas, 6 días</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Planificador Section -->
+            <section id="planificador" class="section">
+                <div class="section-header">
+                    <h2>📅 Planificador Diario</h2>
+                    <p class="section-subtitle">Organiza vuestras actividades día a día</p>
+                </div>
+                <div class="planner">
+                    <div class="planner-calendar">
+                        <div class="day-card" data-day="2025-08-23">
+                            <h3>Sáb 23 Agosto</h3>
+                            <p class="day-subtitle">Llegada y primer día</p>
+                            <div class="day-activities" data-day="23"></div>
+                            <button class="add-activity-btn" data-day="23">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-24">
+                            <h3>Dom 24 Agosto</h3>
+                            <p class="day-subtitle">Día completo</p>
+                            <div class="day-activities" data-day="24"></div>
+                            <button class="add-activity-btn" data-day="24">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-25">
+                            <h3>Lun 25 Agosto</h3>
+                            <p class="day-subtitle">Día completo</p>
+                            <div class="day-activities" data-day="25"></div>
+                            <button class="add-activity-btn" data-day="25">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-26">
+                            <h3>Mar 26 Agosto</h3>
+                            <p class="day-subtitle">Día completo</p>
+                            <div class="day-activities" data-day="26"></div>
+                            <button class="add-activity-btn" data-day="26">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-27">
+                            <h3>Mié 27 Agosto</h3>
+                            <p class="day-subtitle">Día completo</p>
+                            <div class="day-activities" data-day="27"></div>
+                            <button class="add-activity-btn" data-day="27">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-28">
+                            <h3>Jue 28 Agosto</h3>
+                            <p class="day-subtitle">Día completo</p>
+                            <div class="day-activities" data-day="28"></div>
+                            <button class="add-activity-btn" data-day="28">+ Añadir actividad</button>
+                        </div>
+                        <div class="day-card" data-day="2025-08-29">
+                            <h3>Vie 29 Agosto</h3>
+                            <p class="day-subtitle">Último día y salida</p>
+                            <div class="day-activities" data-day="29"></div>
+                            <button class="add-activity-btn" data-day="29">+ Añadir actividad</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal for details -->
+    <div id="modal" class="modal hidden">
+        <div class="modal__content">
+            <button class="modal__close" id="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Activity selector modal -->
+    <div id="activity-modal" class="modal hidden">
+        <div class="modal__content">
+            <button class="modal__close" id="activity-modal-close">&times;</button>
+            <h3>Seleccionar Actividad</h3>
+            <div id="activity-selector"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

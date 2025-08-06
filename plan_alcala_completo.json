@@ -1,0 +1,701 @@
+{
+  "informacion_general": {
+    "destino": "Alcalá del Júcar y alrededores",
+    "fechas": "23-29 agosto 2025",
+    "viajeros": {
+      "personas": [
+        "Sergio",
+        "Sara"
+      ],
+      "mascotas": [
+        "Tapón (Yorkshire)",
+        "Lola (Yorkshire)",
+        "Greta (gata pequeña)"
+      ]
+    },
+    "radio_exploracion": "35 km",
+    "clima_agosto": {
+      "temperatura_max": "33°C",
+      "temperatura_min": "18°C",
+      "probabilidad_lluvia": "6%",
+      "horas_luz": "13.7 horas"
+    }
+  },
+  "alojamientos": [
+    {
+      "nombre": "Casa Rural Cueva con Jacuzzi Paraíso del Júcar",
+      "tipo": "Casa Rural Cueva",
+      "rating": 4.7,
+      "precio_aprox": "90-120€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Jacuzzi privado",
+        "Integrada en roca",
+        "Temperatura constante 18°C"
+      ],
+      "contacto": "+34 649 52 91 95",
+      "web": "http://www.casasruralesalcaladeljucar.eu"
+    },
+    {
+      "nombre": "Hotel Spa Eliá",
+      "tipo": "Hotel 4* con Spa",
+      "rating": 4.7,
+      "precio_aprox": "120-150€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Spa completo",
+        "2 piscinas",
+        "Restaurante",
+        "Paddle"
+      ],
+      "contacto": "+34 967 11 01 90",
+      "web": "http://www.hotelspaelia.com"
+    },
+    {
+      "nombre": "Casa Cueva El Portón",
+      "tipo": "Casa Rural Cueva",
+      "rating": 4.9,
+      "precio_aprox": "80-110€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Cueva histórica",
+        "LGBTQ+ friendly",
+        "Ubicación céntrica"
+      ],
+      "contacto": "Via Booking",
+      "web": "https://www.booking.com"
+    },
+    {
+      "nombre": "Finca Los Olivos",
+      "tipo": "Resort Rural",
+      "rating": 4.7,
+      "precio_aprox": "100-140€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "2 piscinas",
+        "Spa",
+        "Bar tapas",
+        "5 suites lujo"
+      ],
+      "contacto": "+34 967 11 01 90",
+      "web": "http://www.fincalosolivos.com"
+    },
+    {
+      "nombre": "Casas Rurales Los Olivos",
+      "tipo": "Casas Rurales",
+      "rating": 4.5,
+      "precio_aprox": "70-100€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Piscina",
+        "Jardín",
+        "Aire acondicionado"
+      ],
+      "contacto": "Via Booking",
+      "web": "https://www.booking.com"
+    },
+    {
+      "nombre": "Apartamentos Rurales Los Robles con Jacuzzi",
+      "tipo": "Apartamentos",
+      "rating": 4.7,
+      "precio_aprox": "85-115€/noche",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Jacuzzi privado",
+        "Amplios espacios",
+        "Cocina completa"
+      ],
+      "contacto": "+34 625 66 39 92",
+      "web": "https://apartamentoslosrobles.com"
+    }
+  ],
+  "restaurantes": [
+    {
+      "nombre": "Restaurante Los Robles",
+      "precio_medio": "20€/persona",
+      "tipo_cocina": "Manchega tradicional",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Único que permite mascotas DENTRO",
+        "Menú diario 17€",
+        "Carnes a la brasa"
+      ],
+      "direccion": "Av. los Robles, 7",
+      "contacto": "+34 621 24 14 92",
+      "especialidades": [
+        "Gazpacho manchego",
+        "Migas",
+        "Atascaburras",
+        "Carne a la brasa"
+      ]
+    },
+    {
+      "nombre": "Restaurante Eliá",
+      "precio_medio": "50€/persona",
+      "tipo_cocina": "Manchega de autor",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "2 terrazas",
+        "Vista al desfiladero",
+        "Alta cocina"
+      ],
+      "direccion": "C/ Berrocal, 20",
+      "contacto": "+34 678 68 41 07",
+      "especialidades": [
+        "Platos de autor",
+        "Cocina sofisticada",
+        "Vinos DO Manchuela"
+      ]
+    },
+    {
+      "nombre": "Fogones El Chato",
+      "precio_medio": "30€/persona",
+      "tipo_cocina": "Especialidad en carnes",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Terraza familiar",
+        "Carne de caza",
+        "Ambiente acogedor"
+      ],
+      "direccion": "C/ Malvas, 18",
+      "contacto": "+34 622 03 56 96",
+      "especialidades": [
+        "Croquetas rabo de toro",
+        "Carnes de caza",
+        "Tarta de queso casera"
+      ]
+    },
+    {
+      "nombre": "Casa El Moli",
+      "precio_medio": "25€/persona",
+      "tipo_cocina": "Manchega tradicional",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Antiguo molino",
+        "Menú diario 19€",
+        "Terraza amplia"
+      ],
+      "direccion": "Av. los Robles, 5",
+      "contacto": "+34 967 46 XX XX",
+      "especialidades": [
+        "Atascaburras",
+        "Ajo mataero",
+        "Gazpacho manchego"
+      ]
+    },
+    {
+      "nombre": "El Mirador (Las Eras)",
+      "precio_medio": "30€/persona",
+      "tipo_cocina": "De autor",
+      "pet_friendly": true,
+      "caracteristicas": [
+        "Vistas panorámicas",
+        "Menú 25€",
+        "Ideal con niños"
+      ],
+      "direccion": "C/ Morrón, s/n, Las Eras",
+      "contacto": "+34 637 76 71 60",
+      "especialidades": [
+        "Ensalada de perdiz",
+        "Solomillo al foie",
+        "Postres artesanales"
+      ]
+    }
+  ],
+  "actividades_con_mascotas": [
+    {
+      "nombre": "Piraguas aguas tranquilas",
+      "tipo": "Acuática",
+      "duracion": "2-3 horas",
+      "precio": "20-25€/persona",
+      "empresa": "Avenjúcar Multiaventura",
+      "pet_friendly": true,
+      "requisitos_mascotas": "Chalecos especiales para perros",
+      "descripcion": "Paseo en piragua por río Júcar con vistas al castillo",
+      "contacto": "+34 639 30 57 31"
+    },
+    {
+      "nombre": "Senderismo Hoz del Júcar",
+      "tipo": "Naturaleza",
+      "duracion": "Variable 1-4 horas",
+      "precio": "Gratuito",
+      "pet_friendly": true,
+      "rutas": [
+        {
+          "nombre": "Sendero Batán",
+          "distancia": "14.5 km",
+          "duracion": "3.5h",
+          "dificultad": "Media-baja"
+        },
+        {
+          "nombre": "Sendero El Corciolico",
+          "distancia": "5 km",
+          "duracion": "1.5h",
+          "dificultad": "Media"
+        },
+        {
+          "nombre": "Ruta del Agua",
+          "distancia": "N/A",
+          "duracion": "20min",
+          "dificultad": "Fácil"
+        }
+      ],
+      "descripcion": "40km de recorrido fluvial con paisajes únicos"
+    },
+    {
+      "nombre": "Visita Cuevas del Diablo",
+      "tipo": "Cultural",
+      "duracion": "1 hora",
+      "precio": "3.50€/persona",
+      "pet_friendly": true,
+      "descripcion": "Cueva museo con objetos antiguos, bar subterráneo",
+      "direccion": "C/ San Lorenzo, 7",
+      "contacto": "+34 657 98 64 41"
+    },
+    {
+      "nombre": "Cueva del Rey Garadén",
+      "tipo": "Cultural-Histórico",
+      "duracion": "45 min",
+      "precio": "Incluido en visitas guiadas",
+      "pet_friendly": true,
+      "descripcion": "Cueva fortificada de 750 años con mirador excepcional",
+      "requisitos_mascotas": "Con correa obligatoria"
+    },
+    {
+      "nombre": "Visita al Castillo",
+      "tipo": "Histórico",
+      "duracion": "1 hora",
+      "precio": "Entrada libre",
+      "pet_friendly": "Con restricciones",
+      "descripcion": "Castillo almohade con vistas panorámicas",
+      "contacto": "+34 618 12 51 48",
+      "requisitos_mascotas": "Acceso exterior solamente"
+    }
+  ],
+  "actividades_sin_mascotas": [
+    {
+      "nombre": "Spa Eliá - Circuito completo",
+      "tipo": "Bienestar",
+      "duracion": "2-3 horas",
+      "precio": "35€/persona",
+      "descripcion": "Sauna, hammam, hidromasaje, jacuzzi, piscina climatizada",
+      "pet_friendly": false,
+      "donde_dejar_mascotas": "Cuidadores Rover/Holidog disponibles"
+    },
+    {
+      "nombre": "Rafting río Cabriel",
+      "tipo": "Aventura",
+      "duracion": "Día completo",
+      "precio": "45-60€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "descripcion": "Descenso por rápidos del río Cabriel",
+      "donde_dejar_mascotas": "Servicio pet-sitting en hotel"
+    }
+  ],
+  "pueblos_cercanos": [
+    {
+      "nombre": "Jorquera",
+      "distancia": "15 km",
+      "tiempo_coche": "20 min",
+      "destacados": [
+        "Murallas almohades s.XII",
+        "Torre de Doña Blanca",
+        "Mirador panorámico",
+        "Iglesia Santa María Asunción",
+        "Ermita de Cubas (excavada en roca)"
+      ],
+      "pet_friendly": true,
+      "descripcion": "Villa medieval en meandro del Júcar con murallas almohades"
+    },
+    {
+      "nombre": "Casas Ibáñez",
+      "distancia": "25 km",
+      "tiempo_coche": "30 min",
+      "destacados": [
+        "Iglesia San Juan Bautista (barroca s.XVII)",
+        "Ermita Virgen de la Cabeza",
+        "Entre ríos Júcar y Cabriel"
+      ],
+      "pet_friendly": true,
+      "descripcion": "Eje de La Manchuela, centro comercial comarca"
+    },
+    {
+      "nombre": "Villa de Ves",
+      "distancia": "30 km",
+      "tiempo_coche": "35 min",
+      "destacados": [
+        "Castillo árabe en ruinas",
+        "Santuario Cristo de la Vida",
+        "Criptas con momias",
+        "Vistas embalse Molinar"
+      ],
+      "pet_friendly": true,
+      "descripcion": "Despoblado histórico sobre el Júcar con excepcionales vistas"
+    }
+  ],
+  "servicios_mascotas": [
+    {
+      "tipo": "Cuidadores a domicilio",
+      "servicio": "Rover",
+      "precio": "25-35€/día",
+      "contacto": "www.rover.com",
+      "descripcion": "Cuidadores verificados disponibles en Alcalá del Júcar"
+    },
+    {
+      "tipo": "Residencia canina",
+      "servicio": "Holidog",
+      "precio": "18-25€/noche",
+      "contacto": "www.holidog.com",
+      "descripcion": "5 cuidadores disponibles en zona"
+    },
+    {
+      "tipo": "Veterinario",
+      "servicio": "Centro Veterinario Manchuela",
+      "ubicacion": "Casas Ibáñez (25 km)",
+      "contacto": "967 XXX XXX",
+      "descripcion": "Atención veterinaria en comarca"
+    },
+    {
+      "tipo": "Veterinario",
+      "servicio": "Clínica Aralla",
+      "ubicacion": "Villamalea (30 km)",
+      "contacto": "+34 967 XXX XXX",
+      "descripcion": "Consulta, microchips, hospitalización"
+    }
+  ],
+  "presupuesto_estimado": {
+    "alojamiento_6_noches": {
+      "economico": "420-600€",
+      "medio": "600-840€",
+      "premium": "840-1200€"
+    },
+    "comidas": {
+      "por_dia": "50-100€ (2 personas)",
+      "total_6_dias": "300-600€"
+    },
+    "actividades": {
+      "gratuitas": "Senderismo, visitas pueblos, playas fluviales",
+      "de_pago": "100-200€ total (piraguas, cuevas, spa)"
+    },
+    "total_estimado": {
+      "basico": "820-1400€",
+      "completo": "1200-2000€"
+    }
+  },
+  "actividades_multiaventura": [
+    {
+      "nombre": "Karting",
+      "tipo": "Motor",
+      "duracion": "10-60 min",
+      "precio": "20-45€/persona",
+      "empresa": "Karts Alcalá del Júcar",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Circuito 1500m",
+        "Karts nuevos",
+        "Diferentes modalidades"
+      ],
+      "contacto": "+34 615 95 71 67",
+      "web": "http://www.kartsalcaladeljucar.es",
+      "tarifas": {
+        "1_tanda_10min": "20€",
+        "2_tandas": "35€",
+        "3_tandas": "45€",
+        "carrera_equipos_60min": "35€"
+      },
+      "donde_dejar_mascotas": "Cuidadores Rover/Holidog disponibles",
+      "edad_minima": "4 años"
+    },
+    {
+      "nombre": "Paintball",
+      "tipo": "Estrategia",
+      "duracion": "90-120 min",
+      "precio": "15-25€/persona",
+      "empresa": "Paintballwars Albacete",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "3 campos temáticos",
+        "Equipamiento incluido",
+        "Varios escenarios"
+      ],
+      "contacto": "+34 615 XXX XXX",
+      "web": "https://paintballwars.es",
+      "tarifas": {
+        "adultos_100_bolas": "20€",
+        "menores_14-17_años": "15€",
+        "paintball_nocturno": "25€",
+        "recarga_100_bolas": "5€"
+      },
+      "donde_dejar_mascotas": "Instalaciones en Albacete (7km)",
+      "edad_minima": "14 años"
+    },
+    {
+      "nombre": "Rafting Aguas Bravas",
+      "tipo": "Aventura Acuática",
+      "duracion": "Día completo",
+      "precio": "35-40€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Río Cabriel",
+        "Transporte incluido",
+        "Material completo"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "web": "https://multiaventuralosolivos.com",
+      "tarifas": {
+        "rafting_familiar": "40€",
+        "rafting_aguas_bravas": "35€",
+        "canoa_raft": "35€"
+      },
+      "donde_dejar_mascotas": "Servicio pet-sitting en hotel base",
+      "edad_minima": "8 años"
+    },
+    {
+      "nombre": "Escalada y Vía Ferrata",
+      "tipo": "Aventura Vertical",
+      "duracion": "3-4 horas",
+      "precio": "35€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Iniciación escalada",
+        "Vías ferrata",
+        "Material incluido"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "tarifas": {
+        "escalada_iniciacion": "35€",
+        "via_ferrata": "35€"
+      },
+      "donde_dejar_mascotas": "Base Los Olivos con cuidadores",
+      "edad_minima": "10 años"
+    },
+    {
+      "nombre": "Descenso de Barrancos",
+      "tipo": "Aventura Acuática",
+      "duracion": "4-5 horas",
+      "precio": "35-45€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Barrancos acuáticos",
+        "Rappel",
+        "Saltos naturales"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "tarifas": {
+        "barranco_acuatico": "40€",
+        "barranco_tranco_lobo": "45€",
+        "descenso_barranco": "35€"
+      },
+      "donde_dejar_mascotas": "Base con vigilancia 24h",
+      "edad_minima": "12 años"
+    },
+    {
+      "nombre": "Parque de Cuerdas + Tirolina",
+      "tipo": "Aventura Vertical",
+      "duracion": "2-3 horas",
+      "precio": "25-30€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Circuitos aventura",
+        "Tirolinas",
+        "Para toda la familia"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "donde_dejar_mascotas": "Zona base con sombra",
+      "edad_minima": "6 años"
+    },
+    {
+      "nombre": "Rutas Quads y Buggys",
+      "tipo": "Motor",
+      "duracion": "2-3 horas",
+      "precio": "35€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Rutas todoterreno",
+        "Por La Manchuela",
+        "Guías expertos"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "tarifas": {
+        "ruta_quad": "35€",
+        "ruta_buggy": "35€"
+      },
+      "donde_dejar_mascotas": "Base Los Olivos",
+      "edad_minima": "16 años (conductor)"
+    },
+    {
+      "nombre": "Espeleología",
+      "tipo": "Aventura Subterránea",
+      "duracion": "3-4 horas",
+      "precio": "30-35€/persona",
+      "empresa": "Multiaventura Los Olivos",
+      "pet_friendly": false,
+      "caracteristicas": [
+        "Cuevas naturales",
+        "Equipo incluido",
+        "Grupos pequeños"
+      ],
+      "contacto": "+34 687 44 48 02",
+      "donde_dejar_mascotas": "Punto encuentro con vigilancia",
+      "edad_minima": "10 años"
+    }
+  ],
+  "empresas_multiaventura": [
+    {
+      "nombre": "Multiaventura Los Olivos",
+      "tipo": "Completa",
+      "ubicacion": "Alcalá del Júcar",
+      "contacto": "+34 687 44 48 02",
+      "web": "https://multiaventuralosolivos.com",
+      "rating": 4.9,
+      "opiniones": 1172,
+      "servicios": [
+        "Rafting",
+        "Escalada",
+        "Barrancos",
+        "Kayak",
+        "Paintball",
+        "Espeleología"
+      ],
+      "instalaciones": [
+        "Base 1000m²",
+        "Vestuarios",
+        "Parking",
+        "Material propio"
+      ],
+      "grupos_especializados": [
+        "Familias",
+        "Despedidas",
+        "Empresas",
+        "Escolares"
+      ],
+      "seguridad": "Monitores titulados, seguros incluidos",
+      "descuentos_alojados": "Disponibles para huéspedes casas rurales"
+    },
+    {
+      "nombre": "Avenjúcar Multiaventura",
+      "tipo": "Acuática especializada",
+      "ubicacion": "Alcalá del Júcar",
+      "contacto": "+34 639 30 57 31",
+      "web": "https://avenjucar.com",
+      "rating": 4.5,
+      "servicios": [
+        "Piragüismo",
+        "Paddle Surf",
+        "Kayak",
+        "Actividades acuáticas"
+      ],
+      "pet_friendly": true,
+      "instalaciones": [
+        "Hotel propio",
+        "Restaurante",
+        "Material especializado"
+      ]
+    },
+    {
+      "nombre": "Turiaventura",
+      "tipo": "Completa + Motor",
+      "ubicacion": "Alcalá del Júcar",
+      "contacto": "+34 967 09 91 00",
+      "web": "https://turiaventura.com",
+      "rating": 4.2,
+      "servicios": [
+        "Karting",
+        "Multiaventura",
+        "Alojamiento",
+        "Restauración"
+      ],
+      "especialidades": [
+        "Karts",
+        "Packs personalizados",
+        "Eventos especiales"
+      ],
+      "instalaciones": [
+        "Circuito karts 1km",
+        "Casas rurales",
+        "Hotel"
+      ]
+    },
+    {
+      "nombre": "Karts Alcalá del Júcar",
+      "tipo": "Motor especializada",
+      "ubicacion": "Carretera Casas Ibáñez s/n",
+      "contacto": "+34 615 95 71 67",
+      "web": "http://www.kartsalcaladeljucar.es",
+      "rating": 4.0,
+      "servicios": [
+        "Karting exclusivamente"
+      ],
+      "especialidades": [
+        "Circuito 1500m",
+        "Carreras por equipos",
+        "Eventos corporativos"
+      ],
+      "instalaciones": [
+        "Pista profesional",
+        "Parking",
+        "Zona descanso"
+      ],
+      "horarios": "Todo el año según disponibilidad"
+    }
+  ],
+  "paquetes_especiales": [
+    {
+      "nombre": "Pack Aventura Completa",
+      "empresa": "Multiaventura Los Olivos",
+      "duracion": "2 días",
+      "precio": "139-179€/persona",
+      "incluye": [
+        "2 noches casa rural",
+        "3 actividades multiaventura",
+        "Desayunos",
+        "1 regalo"
+      ],
+      "actividades_incluidas": [
+        "Rafting",
+        "Escalada",
+        "Piraguas",
+        "Paintball"
+      ],
+      "ideal_para": "Grupos amigos"
+    },
+    {
+      "nombre": "Pack Parejas Romántico",
+      "empresa": "Multiaventura Los Olivos",
+      "duracion": "2 días",
+      "precio": "280-320€/pareja",
+      "incluye": [
+        "2 noches Almazara Suite",
+        "1 actividad",
+        "Spa",
+        "Cena especial"
+      ],
+      "actividades_incluidas": [
+        "Piraguas",
+        "Paddle Surf",
+        "Senderismo"
+      ],
+      "ideal_para": "Parejas"
+    },
+    {
+      "nombre": "Pack Adrenalina Extrema",
+      "empresa": "Multiaventura Los Olivos",
+      "duracion": "1 día",
+      "precio": "95-125€/persona",
+      "incluye": [
+        "Rafting aguas bravas",
+        "Barranquismo",
+        "Comida",
+        "Transporte"
+      ],
+      "donde_dejar_mascotas": "Servicio cuidadores incluido",
+      "ideal_para": "Aventureros"
+    }
+  ]
+}
